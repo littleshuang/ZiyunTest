@@ -1,0 +1,7 @@
+main文件夹内容：
+Train类为一个Java bean类，这个类中主要用于存放训练部分的标题、介绍内容以及相应的类索引，便于通过目录进入该类
+TrainActivity是一个简单的Activity，该Activity内部没有实质性内容，内部会根据横竖屏选择不同的布局文件
+横屏时分左右两部分加载两个Fragment，左侧Fragment即TrainTitleFragment，用于显示标题；右侧Fragment即TrainDesFragment，
+用于显示类描述信息；点击左侧标题，右侧显示内容随之变化，显示左侧被选中标题的描述信息；长按左侧标题，则能跳转至
+标题相应类中
+竖屏时，通过TrainDesActicity显示描述信息

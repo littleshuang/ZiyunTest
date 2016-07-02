@@ -1,4 +1,63 @@
 <resources>
     <string name="app_name">ZiyunTest</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Strings for activity title-->
+    <string name="title_activity_first">First Activity</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="title_activity_serial">Serial Activity</string>
+    <string name="title_activity_translation">TranslationActivity</string>
+    <string name="title_activity_image_move">ImageMoveActivity</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_train">TrainActivity</string>
+
+    <!--Strings for fragment title in animation exercise-->
+    <string name="title_fragment_frame">FrameFragment</string>
+    <string name="title_fragment_view_anim">ViewAnimFragment</string>
+
+
+    <!--Strings for training title-->
+    <string name="title_train_1">Train</string>
+    <string name="title_train_2">Fragment</string>
+    <string name="title_train_3">Main</string>
+    <string name="title_train_4">Animation</string>
+    <string name="title_train_5">ValueAnim</string>
+    <string name="title_train_6">Draw View</string>
+    <string name="title_train_7">Hand Draw View</string>
+    <string name="title_train_8">Pin Ball Game</string>
+
+    <!--Strings for description-->
+    <string name="des_train_1">这部分内容即当前显示的目录，这是整个练习的目录部分，借鉴了练习Fragment和Main两部分内容，
+    并加以整合。主要知识点有：Fragment、ListFragment、ListView的使用。</string>
+    <string name="des_train_2">该部分主要练习了Fragment的简单使用：
+    FragmentActivity是主Activity，该Activity会根据横竖屏而选择相应的布局文件，并加载相应的Fragment以显示具体内容；
+    本目录就是在该练习的基础上改进而来；横屏时分左右两部分分别加载TitleFragment和DetailFragment显示标题和内容；
+    竖屏时只加载TitleFragment显示标题，通过DetailActivity显示内容。</string>
+    <string name="des_train_3">之前的入口Activity，显示一个类目录，点击即可进入相应的类中，本目录借鉴了这部分内容。</string>
+    <string name="des_train_4">动画</string>
+    <string name="des_train_5">属性动画</string>
+    <string name="des_train_6">一个简单的绘图类</string>
+    <string name="des_train_7">这是一个手绘板，可以根据用户的手指滑动而在画板上画图</string>
+    <string name="des_train_8">这是一个小弹珠游戏，通过键盘移动球拍，以使小弹珠不触碰屏幕底部</string>
+
+    <!-- Strings in draw_view_menu-->
+    <string name="menu_reset">Reset</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_color_accent">Accent</string>
+    <string name="menu_color_green">Green</string>
+    <string name="menu_color_blue">Blue</string>
+    <string name="menu_color_yellow">Yellow</string>
+    <string name="menu_stroke_width">Stroke width</string>
+    <string name="menu_width_1">1</string>
+    <string name="menu_width_3">3</string>
+    <string name="menu_width_5">5</string>
+    <string name="menu_blur">Blur</string>
+    <string name="menu_emboss">Emboss</string>
+
+    <!--Strings in menu_pinball-->
+    <string name="menu_pinball_over">Over</string>
+    <string name="menu_pinball_again">Again</string>
 </resources>

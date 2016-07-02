@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_pinball_over"
+        android:title="@string/menu_pinball_over"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/menu_pinball_again"
+        android:title="@string/menu_pinball_again"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+</menu>

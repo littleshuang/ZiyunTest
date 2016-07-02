@@ -2,22 +2,55 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ziyuntest">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="com.serialize.SerialActivity" />
+        <activity android:name="com.serialize.FirstActivity" />
+        <activity android:name="com.serialize.SecondActivity" />
+        <activity android:name="com.viewevent.ViewEvent" />
+        <activity android:name="com.fragment.FragmentActivity" />
+        <activity android:name="com.fragment.DetailActivity" />
+        <activity android:name="com.main.MainActivity" />
+        <activity android:name="com.main.TrainDesActivity" />
+        <activity android:name="com.animation.ValueAnimActivity" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="com.main.TrainActivity"
+            android:label="@string/title_activity_train"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.animation.ImageMoveActivity"
+            android:label="@string/title_activity_image_move"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.animation.AnimationActivity"
+            android:label="@string/title_activity_animation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.draw.SimpleDrawActivity" />
+        <activity android:name="com.draw.HandDrawActivity" />
+        <activity android:name="com.draw.PinBallActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Strings for fragment title in fragment exercise-->
+    <string-array name="title_fragment">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+        <item>Title 4</item>
+        <item>Title 5</item>
+    </string-array>
+
+    <!--Strings for fragment content in fragment exercise-->
+    <string-array name="content_fragment">
+        <item>Content 1</item>
+        <item>Content 2</item>
+        <item>Content 3</item>
+        <item>Content 4</item>
+        <item>Content 5</item>
+    </string-array>
+
+</resources>

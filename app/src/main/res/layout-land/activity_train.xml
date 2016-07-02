@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--显示标题的Fragment，该Fragmetn是通过xml文件直接添加的-->
+    <fragment
+        android:id="@+id/train_title"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        class="com.main.TrainTitleFragment"/>
+
+    <!--显示内容的Fragment，该Fragment需要通过Java代码动态添加-->
+    <FrameLayout
+        android:id="@+id/train_content"
+        android:layout_width="0px"
+        android:layout_weight="2"
+        android:layout_height="match_parent"/>
+</LinearLayout>

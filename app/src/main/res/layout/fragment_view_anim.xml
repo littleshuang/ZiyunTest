@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.animation.ViewAnimFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_centerInParent="true">
+
+       <ImageView
+           android:id="@+id/view_anim_iv1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/crystal_ball"
+           android:layout_centerInParent="true"/>
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/view_anim_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="translate" />
+        <Button
+            android:id="@+id/view_anim_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/view_anim_btn1"
+            android:text="rotate" />
+        <Button
+            android:id="@+id/view_anim_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view_anim_btn2"
+            android:layout_alignParentRight="true"
+            android:text="scale" />
+        <Button
+            android:id="@+id/view_anim_btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_anim_btn1"
+            android:layout_alignParentLeft="true"
+            android:text="alpha" />
+        <Button
+            android:id="@+id/view_anim_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view_anim_btn4"
+            android:layout_below="@+id/view_anim_btn2"
+            android:layout_centerHorizontal="true"
+            android:text="xml"/>
+    </RelativeLayout>
+
+</RelativeLayout>
