@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 
 import com.animation.AnimationActivity;
+import com.animation.AnimatorActivity;
+import com.animation.BouncingBallsActivity;
 import com.animation.ValueAnimActivity;
 import com.draw.HandDrawActivity;
 import com.draw.PinBallActivity;
@@ -42,6 +44,8 @@ public class Train {
                 new Train(context, R.string.title_train_6, R.string.des_train_6, SimpleDrawActivity.class),
                 new Train(context, R.string.title_train_7, R.string.des_train_7, HandDrawActivity.class),
                 new Train(context, R.string.title_train_8, R.string.des_train_8, PinBallActivity.class),
+                new Train(context, R.string.title_train_9, R.string.des_train_9, AnimatorActivity.class),
+                new Train(context, R.string.title_train_10, R.string.des_train_10, BouncingBallsActivity.class),
 
         };
         return trains;

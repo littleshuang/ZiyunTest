@@ -51,6 +51,8 @@
         <activity android:name="com.draw.SimpleDrawActivity" />
         <activity android:name="com.draw.HandDrawActivity" />
         <activity android:name="com.draw.PinBallActivity" />
+        <activity android:name="com.animation.AnimatorActivity" />
+        <activity android:name="com.animation.BouncingBallsActivity"></activity>
     </application>
 
 </manifest>

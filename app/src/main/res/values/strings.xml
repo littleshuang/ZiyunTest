@@ -27,6 +27,8 @@
     <string name="title_train_6">Draw View</string>
     <string name="title_train_7">Hand Draw View</string>
     <string name="title_train_8">Pin Ball Game</string>
+    <string name="title_train_9">AnimatorActivity</string>
+    <string name="title_train_10">BounceBallActivity</string>
 
     <!--Strings for description-->
     <string name="des_train_1">这部分内容即当前显示的目录，这是整个练习的目录部分，借鉴了练习Fragment和Main两部分内容，
@@ -41,6 +43,8 @@
     <string name="des_train_6">一个简单的绘图类</string>
     <string name="des_train_7">这是一个手绘板，可以根据用户的手指滑动而在画板上画图</string>
     <string name="des_train_8">这是一个小弹珠游戏，通过键盘移动球拍，以使小弹珠不触碰屏幕底部</string>
+    <string name="des_train_9">这是一个小球下降动画，点击屏幕某个位置便会在当前位置创建一个小球，并且小球会向下掉落</string>
+    <string name="des_train_10">这是一个大珠小珠落玉盘的动画，屏幕上的小球下落后会反弹，然后消失</string>
 
     <!-- Strings in draw_view_menu-->
     <string name="menu_reset">Reset</string>
